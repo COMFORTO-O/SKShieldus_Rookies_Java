@@ -14,6 +14,6 @@ public class Main {
         System.out.println(s); // → 홍길동 / 정보보안학 / 3학년
 
         System.out.println("2학년으로 변경");
-        s.setGrade(5); // → 오류 출력
+        s.setGrade(5); // → 오류를 출력
     }
 }
