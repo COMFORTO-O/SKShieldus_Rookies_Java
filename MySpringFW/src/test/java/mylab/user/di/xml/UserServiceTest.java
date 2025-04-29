@@ -1,6 +1,8 @@
 package mylab.user.di.xml;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import org.apache.ibatis.session.SqlSessionFactory;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
@@ -10,6 +12,7 @@ public class UserServiceTest {
 
     @Autowired
     private UserService userService;
+    
 
     @Test
     public void testDependencyInjection() {
